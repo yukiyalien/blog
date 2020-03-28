@@ -1,38 +1,23 @@
 ---
-title: Hello World
+title: Hello World!!
+toc: true
+comment: true
+permalink: hello-world
+date: 2020-03-29 03:00:30
+tags:
+- 日記
+categories:
+- 日記
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+**はじめまして！！**
 
-### Create a new post
+これはこのブログの最初の投稿です。広い宇宙の中からこのブログを見つけてくださり、ありがとうございます。
 
-``` bash
-$ hexo new "My New Post"
-```
+このブログについての~~雑な~~概要は、[About](/about)のページにも書かれています。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+私の名前は**ももつきゆきや**です。**yukiyalien**というIDも名乗っています。インターネットが大好きな地球の学生です。…このブログが何年先まで存在しているかわかりませんが、もしかしたら**あなたが今見ている頃**には、私は学生ではなくなっているかもしれませんね。
 
-### Run server
+このブログでは、適当なことを書いていくつもりです。主にどういうことかと言うと、インターネットや現実の世界で見聞きしたり体験したりした出来事や、可能なら技術に関するものごとも投稿していきます。
 
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+それではまた、次の投稿でお会いしましょう。
