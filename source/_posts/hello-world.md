@@ -1,7 +1,6 @@
 ---
 title: Hello World!!
 toc: true
-comment: true
 permalink: hello-world
 date: 2020-03-29 03:00:30
 tags:
