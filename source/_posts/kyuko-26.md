@@ -4,6 +4,8 @@ toc: true
 permalink: googlemaps-timeline-is-god
 date: 2020-03-30 01:35:00
 tags: 
+- 日記
+- 休校日記
 - Google Maps
 - ゲーム
 - あつまれ どうぶつの森
