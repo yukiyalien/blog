@@ -6,9 +6,24 @@ toc: true
 # このブログについて
 このブログは、ももつきゆきや(yukiyalien)が日々思ったことや、もしかしたらちょっとだけ技術に関する投稿も載せるかもしれない、雑多なものを書き残していくブログです。
 
+---
+
+## リポジトリ
+
 このブログの内容はGitHub上で公開されております。語字修正などがございましたら、以下のリポジトリまでお願いします。
 
-[<i class="fab fa-github" style="font-size:1em;"></i> yukiyalien/blog](https://github.com/yukiyalien/blog)
+- 私のブログのリポジトリ [<i class="fab fa-github" style="font-size:1em;"></i> yukiyalien/blog](https://github.com/yukiyalien/blog)
+
+その他のリポジトリは以下の通りです。
+
+- ブログ本体のライブラリ「hexo」のリポジトリ
+  - 本家： [<i class="fab fa-github" style="font-size:1em;"></i> hexojs/hexo](https://github.com/hexojs/hexo)
+
+- テーマ「icarus」のリポジトリ
+  - おれの： [<i class="fab fa-github" style="font-size:1em;"></i> yukiyalien/hexo-theme-icarus](https://github.com/yukiyalien/hexo-theme-icarus)
+  - 本家： [<i class="fab fa-github" style="font-size:1em;"></i> ppoffice/hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus)
+
+---
 
 ## ライセンス
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
@@ -48,3 +63,5 @@ document.write('運営者：ももつきゆきや<br>連絡先：<a href=\"mai'+
 document.write('&#64;'+domain+'\">');
 document.write(name+'&#64'+domain+'</a>');
 </script>
+
+---
