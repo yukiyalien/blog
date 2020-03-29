@@ -16,6 +16,8 @@ categories:
 
 今日はこちらのブログ**「ももつきのーと」**の方で試験的に休校日記を書いていきます。いい感じならあしたもそうします。このブログは今日正式にオープンしました。どう？なかなかイケてるでしょ。
 
+<!-- more -->
+
 ついでに同時投稿したHello Worldも見てってください。
 
 <div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="https://blog.yukiya.me/2020/03/28/hello-world/" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-image" style="float:right;width:100px;padding:0 0 0 10px;margin:0 0 5px 5px;"><img src="https://images.weserv.nl/?w=100&url=ssl:blog.yukiya.me/images/og_image.png" width="100" style="width:100%;height:auto;max-height:100px;min-width:0;border:0 none;margin:0;"></span><br style="display:none"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">Hello World!!</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;">はじめまして！！ これはこのブログの最初の投稿です。広い宇宙の中からこのブログを見つけてくださり、ありがとうございます。 このブログについての雑な概要は、Aboutのページにも書かれています。 私の名前はももつきゆきやです。yukiyalienというIDも名乗っています。インターネットが大好きな地球の学生です。…このブログが何年先まで存在しているかわかりませんが、もしかしたらあなたが今見ている頃に</span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>
