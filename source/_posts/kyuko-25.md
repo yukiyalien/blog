@@ -38,7 +38,7 @@ categories:
 
 <script type="application/javascript" src="https://embed.nicovideo.jp/watch/1584945542/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/1584945542">恋する小惑星（アステロイド） 11.「きら星チャレンジ！」</a></noscript>
 
-(このブログでは~~ブロマガと違って~~)JavaScriptを書けるので、こういうJSで動いてるプレーヤーもそのまま埋め込めて便利です。)
+(このブログでは~~ブロマガと違って~~JavaScriptを書けるので、こういうJSで動いてるプレーヤーもそのまま埋め込めて便利です。)
 
 ---
 
