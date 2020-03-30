@@ -15,11 +15,6 @@ hexoとhexo-tocを使用して目次を作っていますが、サイドバー�
 
 # TL; DR
 
-筆者の環境
-
-- hexo + hexo-theme-icarus + GitHub + Netlify でホスティング
-- ローカルの開発環境は WSL(2ではなく1) のUbuntu 18.04.4 LTS
-
 <div class="blogcardfu" style="width:auto;max-width:9999px;border:1px solid #E0E0E0;border-radius:3px;margin:10px 0;padding:15px;line-height:1.4;text-align:left;background:#FFFFFF;"><a href="https://github.com/yukiyalien/blog/issues/2" target="_blank" style="display:block;text-decoration:none;"><span class="blogcardfu-image" style="float:right;width:100px;padding:0 0 0 10px;margin:0 0 5px 5px;"><img src="https://images.weserv.nl/?w=100&url=ssl:avatars2.githubusercontent.com/u/36108601?s=400&amp;amp;v=4" width="100" style="width:100%;height:auto;max-height:100px;min-width:0;border:0 none;margin:0;"></span><br style="display:none"><span class="blogcardfu-title" style="font-size:112.5%;font-weight:700;color:#333333;margin:0 0 5px 0;">目次のウィジェットがうまく動作しない · Issue #2 · yukiyalien/blog</span><br><span class="blogcardfu-content" style="font-size:87.5%;font-weight:400;color:#666666;">発生している事象 目次のウィジェット上の各見出しへのリンクが #undefined になってしまっていてうまく動作していない。 再現環境 全てのデバイス、全てのブラウザ 対処 どうなれば正しいのか 例えば上記のAboutページの1つ目の見出しに飛ぶなら、URLのアンカーが #このブログについて になれば正しい…はず？ どうやって直すの？ _config.yml の設定を変えればいけるらしい…？</span><br><span style="clear:both;display:block;overflow:hidden;height:0;">&nbsp;</span></a></div>
 
 ![](https://user-images.githubusercontent.com/36108601/77887095-f216b980-72a4-11ea-9576-ac89cfe374ad.png)
@@ -29,6 +24,11 @@ hexoとhexo-tocを使用して目次を作っていますが、サイドバー�
 ![](https://user-images.githubusercontent.com/36108601/77887145-0b1f6a80-72a5-11ea-93b4-682519487f82.png)
 
 リンクが `/#undefined` になってしまって見出しに飛べないという症状があったのを直しました。結論から言うと、目次を生成している**hexo-toc**というプラグインをちょっといじりました。
+
+筆者の環境
+
+- hexo + hexo-theme-icarus + GitHub + Netlify でホスティング
+- ローカルの開発環境は WSL(2ではなく1) のUbuntu 18.04.4 LTS
 
 # どうやって直したの？
 
@@ -58,13 +58,13 @@ $title.removeAttr('id');
 
 私はhexo + GitHub + Netlifyという形でホスティングしているので、以下の通りに修正しました。本番サーバー上で直接hexoを運用している人なんかは、以下は無視していいと思います。
 
-## hexo-toc側でやること
+### hexo-toc側でやること
 
 まず本家のhexo-tocのリポジトリをForkしてきます。本家のリポジトリはここにあります。
 
 [<i class="fab fa-github" style="font-size:1em;"></i> bubkoo/hexo-toc](https://github.com/bubkoo/hexo-toc)
 
-これをForkしてから`git clone`して、`lib/filter.js` を先述したように書き換えます。そして
+これをForkしてから `git clone` して、`lib/filter.js` を先述したように書き換えます。そして
 
 ```
 git add .
@@ -74,7 +74,7 @@ git push
 
 してフォークした自分のhexo-tocのリモートリポジトリに反映させます。
 
-## hexo本体側でやること
+### hexo本体側でやること
 
 npmを使っているので、以下の方法でもともとあったhexo-tocを削除した上で、自分でいじったhexo-tocをインストールしました。
 
