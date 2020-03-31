@@ -99,3 +99,106 @@ theme: hexo-theme-icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+githubEmojis:
+  enable: true
+  inject: true
+  customEmojis:
+    nicodic:
+      src: /img/nicodic.png
+    mastodon:
+      src: /img/mastodon.png
+    tvchan:
+      src: /img/tvchan.png
+    youtube:
+      src: /img/youtube.png
+    niconico:
+      src: /img/niconico.png
+    nico:
+      src: /img/nico.jpg
+    namaco:
+      src: /img/namaco.png
+    github:
+      src: /img/github.png
+    twitter:
+      src: /img/twitter.png
+    jr_east:
+      src: /img/rail/jr_east.png
+    jr:
+      src: /img/rail/jr.png
+    jre_ja:
+      src: /img/rail/jre_ja.png
+    jre_jb:
+      src: /img/rail/jre_jb.png
+    jre_jc:
+      src: /img/rail/jre_jc.png
+    jre_je:
+      src: /img/rail/jre_je.png
+    jre_jh:
+      src: /img/rail/jre_jh.png
+    jre_ji:
+      src: /img/rail/jre_ji.png
+    jre_jj:
+      src: /img/rail/jre_jj.png
+    jre_jk:
+      src: /img/rail/jre_jk.png
+    jre_jl:
+      src: /img/rail/jre_jl.png
+    jre_jm:
+      src: /img/rail/jre_jm.png
+    jre_jn:
+      src: /img/rail/jre_jn.png
+    jre_jo:
+      src: /img/rail/jre_jo.png
+    jre_js:
+      src: /img/rail/jre_js.png
+    jre_jt:
+      src: /img/rail/jre_jt.png
+    jre_ju:
+      src: /img/rail/jre_ju.png
+    jre_jy:
+      src: /img/rail/jre_jy.png
+    ks:
+      src: /img/rail/ks.png
+    mo:
+      src: /img/rail/mo.png
+    rinkai_line:
+      src: /img/rail/rinkai_line.png
+    sl:
+      src: /img/rail/sl.png
+    tm_c:
+      src: /img/rail/tm_c.png
+    tm_f:
+      src: /img/rail/tm_f.png
+    tm_g:
+      src: /img/rail/tm_g.png
+    tm_h:
+      src: /img/rail/tm_h.png
+    tm_m:
+      src: /img/rail/tm_m.png
+    tm_mb:
+      src: /img/rail/tm_mb.png
+    tm_n:
+      src: /img/rail/tm_n.png
+    tm_t:
+      src: /img/rail/tm_t.png
+    tm_y:
+      src: /img/rail/tm_y.png
+    tm_z:
+      src: /img/rail/tm_z.png
+    toei_a:
+      src: /img/rail/toei_a.png
+    toei_e:
+      src: /img/rail/toei_e.png
+    toei_i:
+      src: /img/rail/toei_i.png
+    toei_s:
+      src: /img/rail/toei_s.png
+    tokyo_metro:
+      src: /img/rail/tokyo_metro.png
+    tokyometrogov:
+      src: /img/tokyometrogov.png
+    tr:
+      src: /img/rail/tr.png
+    yurikamome:
+      src: /img/rail/yurikamome.png
