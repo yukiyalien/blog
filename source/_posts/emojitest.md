@@ -4,7 +4,9 @@ toc: true
 permalink: emojitest
 date: 2020-04-01 01:12:05
 tags:
+- 絵文字
 categories:
+- [日記]
 ---
 いろんなひとに手伝ってもらって、以下のような絵文字を書けるようになりました！:sparkles:
 
