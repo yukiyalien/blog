@@ -8,6 +8,7 @@ tags:
 - ニコニコ動画
 categories:
 - [日記, 休校日記]
+- [niconico]
 ---
 
 こんにちは。昨日休校日記を投稿した後、ねじわさくん( [:mastodon: @nzws](https://don.nzws.me/@nzws))などがメチャクチャ手伝ってくださって、このブログで**GitHub絵文字**と**カスタム絵文字**がつかえるようになりました！！:tw_tada:
