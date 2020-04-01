@@ -108,7 +108,7 @@ categories:
 > :rinkai_line: 東京臨海高速鉄道*臨海副都心線* **りんかい線**
 > :yurikamome_line: 東京臨海新交通*臨海線* **ゆりかもめ**
 
-- Twemoji
+**Twemoji**
 
 GitHubの絵文字も良いんですけど、Twemojiのデザインが好きなんじゃ～というやつも追加していきます。これもちゃんとUnicode絵文字としてコピーできるはずです。
 
