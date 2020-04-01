@@ -12,7 +12,7 @@ categories:
 
 :nicodic: :twitter: :github: :mastodon: :tvchan: :youtube: :niconico: :nico: :namaco: :tokyometrogov:
 
-:jr_east: :jr: :jre_ja: :jre_jb: :jre_jc: :jre_je: :jre_jh: :jre_ji: :jre_jj: :jre_jk: :jre_jl: :jre_jm: :jre_jn: :jre_jo: :jre_js: :jre_jt: :jre_ju: :jre_jy: :ks: :mo: :rinkai_line: :sl: :tm_c: :tm_f: :tm_g: :tm_h: :tm_m: :tm_mb: :tm_n: :tm_t: :tm_y: :tm_z: :toei_a: :toei_e: :toei_i: :toei_s: :tokyo_metro: :tr: :yurikamome:
+:jr_east: :jr: :jre_ja: :jre_jb: :jre_jc: :jre_je: :jre_jh: :jre_ji: :jre_jj: :jre_jk: :jre_jl: :jre_jm: :jre_jn: :jre_jo: :jre_js: :jre_jt: :jre_ju: :jre_jy: :keisei_line: :tokyomonorail: :rinkai_line: :shinkeisei_line: :tm_c: :tm_f: :tm_g: :tm_h: :tm_m: :tm_mb: :tm_n: :tm_t: :tm_y: :tm_z: :toei_a: :toei_e: :toei_i: :toei_s: :tokyo_metro: :toyorapid_line: :yurikamome_line:
 
 (路線の順番がメチャクチャなのには目をつぶってください)
 
