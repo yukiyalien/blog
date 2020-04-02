@@ -14,6 +14,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "hexo": "^4.0.0",
+    "hexo-embed-hatena-blog-card": "github:shundroid/hexo-embed-hatena-blog-card",
     "hexo-filter-github-emojis": "git+https://github.com/nzws/hexo-filter-github-emojis.git",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",

@@ -121,7 +121,7 @@ categories:
 
 これによりTwemoji用のカスタム絵文字を使わなくても普通にTwemojiで表示されてくれます！:tada::tada::tada:
 
-- [:github: Improve emoji by nzws · Pull Request #7 · yukiyalien/blog](
+- [:github: Improve emoji by nzws · Pull Request #7 · yukiyalien/blog](https://github.com/yukiyalien/blog/pull/7)
 
 ---
 
