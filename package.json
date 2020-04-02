@@ -24,6 +24,7 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-toc": "git+https://github.com/yukiyalien/hexo-toc.git"
+    "hexo-toc": "git+https://github.com/yukiyalien/hexo-toc.git",
+    "twemoji": "^12.1.5"
   }
 }

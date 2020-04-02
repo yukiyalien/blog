@@ -18,4 +18,14 @@ categories:
 
 カスタム絵文字以外でも、ふつうに:thinking:とかもできます。
 
-実のところ一番好きなのはTwemojiなんですけど、カスタム絵文字をつかえるプラグインがGitHub提供の絵文字を使ってたのでGitHubの絵文字にしました。
+~~実のところ一番好きなのはTwemojiなんですけど、カスタム絵文字をつかえるプラグインがGitHub提供の絵文字を使ってたのでGitHubの絵文字にしました。~~
+
+---
+
+<span style="color: red; font-size:1.3em;"> → 2020-04-02 20:00ごろ追記</span>
+
+毎度毎度本当にありがとうございます:bow::bow::bow:、[:mastodon:@nzws](https://don.nzws.me/@nzws)くんが絵文字をTwemojiにしてくれました…本当にいつもありがとうございます:bow::bow:
+
+- [:github: Improve emoji by nzws · Pull Request #7 · yukiyalien/blog](https://github.com/yukiyalien/blog/pull/7)
+
+---

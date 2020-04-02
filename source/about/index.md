@@ -55,7 +55,16 @@ toc: true
 
 ---
 
+# Specialthanks:sparkles:
+
+当サイトは技術面や様々な面において、以下の方(々)をはじめとするたくさんの皆様からのご支援・ご協力を頂いております。心より感謝を申し上げます。
+
+- nzws / ねじわさ さん (:earth_americas:https://nzws.me / :mastodon:[@nzws](https://don.nzws.me/@nzws) / :twitter:[@nzws_me](https://twitter.com/nzws_me))
+
+---
+
 # お問い合わせ
+
 <script type="text/javascript">
 var name = "&#99;&#111;&#110;&#116;&#97;&#99;&#116;";
 var domain = "&#121;&#117;&#107;&#105;&#121;&#97;&#46;&#109;&#101;";
@@ -63,5 +72,4 @@ document.write('運営者：ももつきゆきや<br>連絡先：<a href=\"mai'+
 document.write('&#64;'+domain+'\">');
 document.write(name+'&#64'+domain+'</a>');
 </script>
-
 ---

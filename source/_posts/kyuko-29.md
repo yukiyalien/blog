@@ -11,7 +11,7 @@ categories:
 - [niconico]
 ---
 
-こんにちは。昨日休校日記を投稿した後、ねじわさくん( [:mastodon: @nzws](https://don.nzws.me/@nzws))などがメチャクチャ手伝ってくださって、このブログで**GitHub絵文字**と**カスタム絵文字**がつかえるようになりました！！:tw_tada:
+こんにちは。昨日休校日記を投稿した後、ねじわさくん( [:mastodon: @nzws](https://don.nzws.me/@nzws))などがメチャクチャ手伝ってくださって、このブログで**GitHub絵文字**と**カスタム絵文字**がつかえるようになりました！！:tada:
 
 今日はその話とかそれ以外の話とかをしていきます。
 
@@ -108,12 +108,20 @@ categories:
 > :rinkai_line: 東京臨海高速鉄道*臨海副都心線* **りんかい線**
 > :yurikamome_line: 東京臨海新交通*臨海線* **ゆりかもめ**
 
-**Twemoji**
+~~**Twemoji**~~
 
-GitHubの絵文字も良いんですけど、Twemojiのデザインが好きなんじゃ～というやつも追加していきます。これもちゃんとUnicode絵文字としてコピーできるはずです。
+~~GitHubの絵文字も良いんですけど、Twemojiのデザインが好きなんじゃ～というやつも追加していきます。これもちゃんとUnicode絵文字としてコピーできるはずです。~~
 
-> :tw_thinking: Twemoji thinking_face
-> :tw_tada: Twemoji tada
+> ~~:tw_thinking: Twemoji thinking_face~~
+> ~~:tw_tada: Twemoji tada~~
+
+<span style="color: red; font-size:1.3em;"> → 2020-04-02 20:00ごろ追記</span>
+
+毎度毎度本当にありがとうございます:bow::bow::bow:、[:mastodon:@nzws](https://don.nzws.me/@nzws)くんが絵文字のプロバイダそのものをTwemojiにしてくれました…本当にいつもありがとうございます:bow::bow:
+
+これによりTwemoji用のカスタム絵文字を使わなくても普通にTwemojiで表示されてくれます！:tada::tada::tada:
+
+- [:github: Improve emoji by nzws · Pull Request #7 · yukiyalien/blog](
 
 ---
 
