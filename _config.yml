@@ -104,188 +104,97 @@ githubEmojis:
   enable: true
   inject: true
   customEmojis:
-    nicodic:
-      src: /img/nicodic.png
-    mastodon:
-      src: /img/mastodon.png
-    tvchan:
-      src: /img/tvchan.png
-    youtube:
-      src: /img/youtube.png
-    niconico:
-      src: /img/niconico.png
-    nico:
-      src: /img/nico.jpg
-    namaco:
-      src: /img/namaco.png
-    github:
-      src: /img/github.png
-    twitter:
-      src: /img/twitter.png
-    jr_east:
-      src: /img/rail/jr_east.png
-    jr:
-      src: /img/rail/jr.png
-    jre_ja:
-      src: /img/rail/jre_ja.png
-    jre_saikyo:
-      src: /img/rail/jre_ja.png
-    jre_jb:
-      src: /img/rail/jre_jb.png
-    jre_sobu:
-      src: /img/rail/jre_jb.png
-    jre_chuosobu:
-      src: /img/rail/jre_jb.png
-    jre_sobulocal:
-      src: /img/rail/jre_jb.png
-    jre_jc:
-      src: /img/rail/jre_jc.png
-    jre_chuo:
-      src: /img/rail/jre_jc.png
-    jre_chuorapid:
-      src: /img/rail/jre_jc.png
-    jre_ome:
-      src: /img/rail/jre_jc.png
-    jre_itsukaichi:
-      src: /img/rail/jre_jc.png
-    jre_je:
-      src: /img/rail/jre_je.png
-    jre_keiyo:
-      src: /img/rail/jre_je.png
-    jre_jh:
-      src: /img/rail/jre_jh.png
-    jre_yokohama:
-      src: /img/rail/jre_jh.png
-    jre_ji:
-      src: /img/rail/jre_ji.png
-    jre_tsurumi:
-      src: /img/rail/jre_ji.png
-    jre_jj:
-      src: /img/rail/jre_jj.png
-    jre_joban:
-      src: /img/rail/jre_jj.png
-    jre_jobanrapid:
-      src: /img/rail/jre_jj.png
-    jre_jk:
-      src: /img/rail/jre_jk.png
-    jre_keihintohoku:
-      src: /img/rail/jre_jk.png
-    jre_jl:
-      src: /img/rail/jre_jl.png
-    jre_jobanlocal:
-      src: /img/rail/jre_jl.png
-    jre_jm:
-      src: /img/rail/jre_jm.png
-    jre_musashino:
-      src: /img/rail/jre_jm.png
-    jre_jn:
-      src: /img/rail/jre_jn.png
-    jre_nambu:
-      src: /img/rail/jre_jn.png
-    jre_jo:
-      src: /img/rail/jre_jo.png
-    jre_yokosuka:
-      src: /img/rail/jre_jo.png
-    jre_soburapid:
-      src: /img/rail/jre_jo.png
-    jre_js:
-      src: /img/rail/jre_js.png
-    jre_shonanshinjuku:
-      src: /img/rail/jre_js.png
-    jre_jt:
-      src: /img/rail/jre_jt.png
-    jre_tokaido:
-      src: /img/rail/jre_jt.png
-    jre_ito:
-      src: /img/rail/jre_jt.png
-    jre_ju:
-      src: /img/rail/jre_ju.png
-    jre_utsunomiya:
-      src: /img/rail/jre_ju.png
-    jre_takasaki:
-      src: /img/rail/jre_ju.png
-    jre_jy:
-      src: /img/rail/jre_jy.png
-    jre_yamanote:
-      src: /img/rail/jre_jy.png
-    keisei_line:
-      src: /img/rail/ks.png
-    tokyomonorail:
-      src: /img/rail/mo.png
-    rinkai_line:
-      src: /img/rail/rinkai_line.png
-    shinkeisei_line:
-      src: /img/rail/sl.png
-    tm_c:
-      src: /img/rail/tm_c.png
-    tm_f:
-      src: /img/rail/tm_f.png
-    tm_g:
-      src: /img/rail/tm_g.png
-    tm_h:
-      src: /img/rail/tm_h.png
-    tm_m:
-      src: /img/rail/tm_m.png
-    tm_mb:
-      src: /img/rail/tm_mb.png
-    tm_n:
-      src: /img/rail/tm_n.png
-    tm_t:
-      src: /img/rail/tm_t.png
-    tm_y:
-      src: /img/rail/tm_y.png
-    tm_z:
-      src: /img/rail/tm_z.png
-    tokyometro_ginza:
-      src: /img/rail/tm_g.png
-    tokyometro_marunouchi:
-      src: /img/rail/tm_m.png
-    tokyometro_marunouchi_b:
-      src: /img/rail/tm_mb.png
-    tokyometro_hibiya:
-      src: /img/rail/tm_h.png
-    tokyometro_tozai:
-      src: /img/rail/tm_t.png
-    tokyometro_chiyoda:
-      src: /img/rail/tm_c.png
-    tokyometro_yurakucho:
-      src: /img/rail/tm_y.png
-    tokyometro_hanzomon:
-      src: /img/rail/tm_z.png
-    tokyometro_namboku:
-      src: /img/rail/tm_n.png
-    tokyometro_fukutoshin:
-      src: /img/rail/tm_f.png
-    toei_a:
-      src: /img/rail/toei_a.png
-    toei_asakusa:
-      src: /img/rail/toei_a.png
-    toei_e:
-      src: /img/rail/toei_e.png
-    toei_oedo:
-      src: /img/rail/toei_e.png
-    toei_i:
-      src: /img/rail/toei_i.png
-    toei_mita:
-      src: /img/rail/toei_i.png
-    toei_s:
-      src: /img/rail/toei_s.png
-    toei_shinjuku:
-      src: /img/rail/toei_s.png
-    tokyo_sakura_tram:
-      src: /img/rail/tokyo_sakura_tram.png
-    toden_arakawa:
-      src: /img/rail/tokyo_sakura_tram.png
-    nippori_toneri_liner:
-      src: /img/rail/nipporitoneri.png
-    tokyo_metro:
-      src: /img/rail/tokyo_metro.png
-    tokyometrogov:
-      src: /img/tokyometrogov.png
-    toyorapid_line:
-      src: /img/rail/tr.png
-    yurikamome_line:
-      src: /img/rail/yurikamome.png
+    nicodic: /img/nicodic.png
+    mastodon: /img/mastodon.png
+    tvchan: /img/tvchan.png
+    youtube: /img/youtube.png
+    niconico: /img/niconico.png
+    nico: /img/nico.jpg
+    namaco: /img/namaco.png
+    github: /img/github.png
+    twitter: /img/twitter.png
+    jr_east: /img/rail/jr_east.png
+    jr: /img/rail/jr.png
+    jre_ja: /img/rail/jre_ja.png
+    jre_saikyo: /img/rail/jre_ja.png
+    jre_jb: /img/rail/jre_jb.png
+    jre_sobu: /img/rail/jre_jb.png
+    jre_chuosobu: /img/rail/jre_jb.png
+    jre_sobulocal: /img/rail/jre_jb.png
+    jre_jc: /img/rail/jre_jc.png
+    jre_chuo: /img/rail/jre_jc.png
+    jre_chuorapid: /img/rail/jre_jc.png
+    jre_ome: /img/rail/jre_jc.png
+    jre_itsukaichi: /img/rail/jre_jc.png
+    jre_je: /img/rail/jre_je.png
+    jre_keiyo: /img/rail/jre_je.png
+    jre_jh: /img/rail/jre_jh.png
+    jre_yokohama: /img/rail/jre_jh.png
+    jre_ji: /img/rail/jre_ji.png
+    jre_tsurumi: /img/rail/jre_ji.png
+    jre_jj: /img/rail/jre_jj.png
+    jre_joban: /img/rail/jre_jj.png
+    jre_jobanrapid: /img/rail/jre_jj.png
+    jre_jk: /img/rail/jre_jk.png
+    jre_keihintohoku: /img/rail/jre_jk.png
+    jre_jl: /img/rail/jre_jl.png
+    jre_jobanlocal: /img/rail/jre_jl.png
+    jre_jm: /img/rail/jre_jm.png
+    jre_musashino: /img/rail/jre_jm.png
+    jre_jn: /img/rail/jre_jn.png
+    jre_nambu: /img/rail/jre_jn.png
+    jre_jo: /img/rail/jre_jo.png
+    jre_yokosuka: /img/rail/jre_jo.png
+    jre_soburapid: /img/rail/jre_jo.png
+    jre_js: /img/rail/jre_js.png
+    jre_shonanshinjuku: /img/rail/jre_js.png
+    jre_jt: /img/rail/jre_jt.png
+    jre_tokaido: /img/rail/jre_jt.png
+    jre_ito: /img/rail/jre_jt.png
+    jre_ju: /img/rail/jre_ju.png
+    jre_utsunomiya: /img/rail/jre_ju.png
+    jre_takasaki: /img/rail/jre_ju.png
+    jre_jy: /img/rail/jre_jy.png
+    jre_yamanote: /img/rail/jre_jy.png
+    keisei_line: /img/rail/ks.png
+    tokyomonorail: /img/rail/mo.png
+    rinkai_line: /img/rail/rinkai_line.png
+    shinkeisei_line: /img/rail/sl.png
+    tm_c: /img/rail/tm_c.png
+    tm_f: /img/rail/tm_f.png
+    tm_g: /img/rail/tm_g.png
+    tm_h: /img/rail/tm_h.png
+    tm_m: /img/rail/tm_m.png
+    tm_mb: /img/rail/tm_mb.png
+    tm_n: /img/rail/tm_n.png
+    tm_t: /img/rail/tm_t.png
+    tm_y: /img/rail/tm_y.png
+    tm_z: /img/rail/tm_z.png
+    tokyometro_ginza: /img/rail/tm_g.png
+    tokyometro_marunouchi: /img/rail/tm_m.png
+    tokyometro_marunouchi_b: /img/rail/tm_mb.png
+    tokyometro_hibiya: /img/rail/tm_h.png
+    tokyometro_tozai: /img/rail/tm_t.png
+    tokyometro_chiyoda: /img/rail/tm_c.png
+    tokyometro_yurakucho: /img/rail/tm_y.png
+    tokyometro_hanzomon: /img/rail/tm_z.png
+    tokyometro_namboku: /img/rail/tm_n.png
+    tokyometro_fukutoshin: /img/rail/tm_f.png
+    toei_a: /img/rail/toei_a.png
+    toei_asakusa: /img/rail/toei_a.png
+    toei_e: /img/rail/toei_e.png
+    toei_oedo: /img/rail/toei_e.png
+    toei_i: /img/rail/toei_i.png
+    toei_mita: /img/rail/toei_i.png
+    toei_s: /img/rail/toei_s.png
+    toei_shinjuku: /img/rail/toei_s.png
+    tokyo_sakura_tram: /img/rail/tokyo_sakura_tram.png
+    toden_arakawa: /img/rail/tokyo_sakura_tram.png
+    nippori_toneri_liner: /img/rail/nipporitoneri.png
+    tokyo_metro: /img/rail/tokyo_metro.png
+    tokyometrogov: /img/tokyometrogov.png
+    toyorapid_line: /img/rail/tr.png
+    yurikamome_line: /img/rail/yurikamome.png
     thinking_face:
       src: /img/tw_thinking.png
       codepoints: ["1f914"]
@@ -295,75 +204,39 @@ githubEmojis:
     tw_tada:
       src: /img/tw_tada.png
       codepoints: ["1f389"]
-    hacker_a:
-      src: /img/hacker/hacker_a.png
-    hacker_b:
-      src: /img/hacker/hacker_b.png
-    hacker_c:
-      src: /img/hacker/hacker_c.png
-    hacker_d:
-      src: /img/hacker/hacker_d.png
-    hacker_e:
-      src: /img/hacker/hacker_e.png
-    hacker_f:
-      src: /img/hacker/hacker_f.png
-    hacker_g:
-      src: /img/hacker/hacker_g.png
-    hacker_h:
-      src: /img/hacker/hacker_h.png
-    hacker_i:
-      src: /img/hacker/hacker_i.png
-    hacker_j:
-      src: /img/hacker/hacker_j.png
-    hacker_k:
-      src: /img/hacker/hacker_k.png
-    hacker_l:
-      src: /img/hacker/hacker_l.png
-    hacker_m:
-      src: /img/hacker/hacker_m.png
-    hacker_n:
-      src: /img/hacker/hacker_n.png
-    hacker_o:
-      src: /img/hacker/hacker_o.png
-    hacker_p:
-      src: /img/hacker/hacker_p.png
-    hacker_q:
-      src: /img/hacker/hacker_q.png
-    hacker_r:
-      src: /img/hacker/hacker_r.png
-    hacker_s:
-      src: /img/hacker/hacker_s.png
-    hacker_t:
-      src: /img/hacker/hacker_t.png
-    hacker_u:
-      src: /img/hacker/hacker_u.png
-    hacker_v:
-      src: /img/hacker/hacker_v.png
-    hacker_w:
-      src: /img/hacker/hacker_w.png
-    hacker_x:
-      src: /img/hacker/hacker_x.png
-    hacker_y:
-      src: /img/hacker/hacker_y.png
-    hacker_z:
-      src: /img/hacker/hacker_z.png
-    keisei_naritaskyaccess:
-      src: /img/rail/keisei_naritaskyaccess.png
-    hokuso_line:
-      src: /img/rail/hokuso_line.png
-    shibayama_railway_line:
-      src: /img/rail/shibayama_railway_line.png
-    nagoyasubway:
-      src: /img/rail/nagoyasubway.png
-    nagoyasubway_higashiyama:
-      src: /img/rail/nagoyasubway_higashiyama.png
-    nagoyasubway_meijo:
-      src: /img/rail/nagoyasubway_meijo.png
-    nagoyasubway_meiko:
-      src: /img/rail/nagoyasubway_meiko.png
-    nagoyasubway_tsurumai:
-      src: /img/rail/nagoyasubway_tsurumai.png
-    nagoyasubway_sakuradori:
-      src: /img/rail/nagoyasubway_sakuradori.png
-    nagoyasubway_kamiiida:
-      src: /img/rail/nagoyasubway_kamiiida.png
+    hacker_a: /img/hacker/hacker_a.png
+    hacker_b: /img/hacker/hacker_b.png
+    hacker_c: /img/hacker/hacker_c.png
+    hacker_d: /img/hacker/hacker_d.png
+    hacker_e: /img/hacker/hacker_e.png
+    hacker_f: /img/hacker/hacker_f.png
+    hacker_g: /img/hacker/hacker_g.png
+    hacker_h: /img/hacker/hacker_h.png
+    hacker_i: /img/hacker/hacker_i.png
+    hacker_j: /img/hacker/hacker_j.png
+    hacker_k: /img/hacker/hacker_k.png
+    hacker_l: /img/hacker/hacker_l.png
+    hacker_m: /img/hacker/hacker_m.png
+    hacker_n: /img/hacker/hacker_n.png
+    hacker_o: /img/hacker/hacker_o.png
+    hacker_p: /img/hacker/hacker_p.png
+    hacker_q: /img/hacker/hacker_q.png
+    hacker_r: /img/hacker/hacker_r.png
+    hacker_s: /img/hacker/hacker_s.png
+    hacker_t: /img/hacker/hacker_t.png
+    hacker_u: /img/hacker/hacker_u.png
+    hacker_v: /img/hacker/hacker_v.png
+    hacker_w: /img/hacker/hacker_w.png
+    hacker_x: /img/hacker/hacker_x.png
+    hacker_y: /img/hacker/hacker_y.png
+    hacker_z: /img/hacker/hacker_z.png
+    keisei_naritaskyaccess: /img/rail/keisei_naritaskyaccess.png
+    hokuso_line: /img/rail/hokuso_line.png
+    shibayama_railway_line: /img/rail/shibayama_railway_line.png
+    nagoyasubway: /img/rail/nagoyasubway.png
+    nagoyasubway_higashiyama: /img/rail/nagoyasubway_higashiyama.png
+    nagoyasubway_meijo: /img/rail/nagoyasubway_meijo.png
+    nagoyasubway_meiko: /img/rail/nagoyasubway_meiko.png
+    nagoyasubway_tsurumai: /img/rail/nagoyasubway_tsurumai.png
+    nagoyasubway_sakuradori: /img/rail/nagoyasubway_sakuradori.png
+    nagoyasubway_kamiiida: /img/rail/nagoyasubway_kamiiida.png
