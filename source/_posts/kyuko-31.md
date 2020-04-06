@@ -4,6 +4,8 @@ toc: true
 permalink: kemurikusa-wo-miro
 date: 2020-04-04 01:00:00
 tags:
+- 日記
+- 休校日記
 - アニメ
 - ケムリクサ
 - niconico

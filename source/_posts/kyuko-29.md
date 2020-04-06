@@ -6,6 +6,8 @@ date: 2020-04-02 00:17:01
 tags:
 - niconico
 - ニコニコ動画
+- 日記
+- 休校日記
 categories:
 - [日記, 休校日記]
 - [niconico]

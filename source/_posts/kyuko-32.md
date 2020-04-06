@@ -4,6 +4,8 @@ toc: true
 permalink: tv-stations-logos-and-dlife
 date: 2020-04-05 01:30:00
 tags:
+- 日記
+- 休校日記
 - ロゴ
 - ブランディング
 - デザイン

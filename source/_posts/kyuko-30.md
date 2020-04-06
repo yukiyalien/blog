@@ -4,6 +4,8 @@ toc: true
 permalink: bluebear-kawaii
 date: 2020-04-02 22:49:59
 tags:
+- 日記
+- 休校日記
 - ゲーム
 - あつまれ どうぶつの森
 - niconico
