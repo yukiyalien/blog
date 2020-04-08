@@ -15,7 +15,7 @@ share: false
 
 [Kyash](https://kyash.co)でももつきゆきやに投げ銭ができます。
 
-スマートフォンで以下の**QRコードをタップ**するか、**QRコードを読み取る**か、ID:`yukiyalien`で**検索**してください。
+スマートフォンで以下の**QRコードをタップ**するか、**QRコードを読み取る**か、ID: `yukiyalien` で**検索**してください。
 
 <a href="kyash://qr/u/5430735642427580033" target="_blank" rel="noopener">
 
