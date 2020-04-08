@@ -1,5 +1,5 @@
 ---
-title: たべるんごブームに見るニコニコ動画衰退論
+title: 休校36日目 - 4/8(水) たべるんごブームに見るニコニコ動画衰退論
 toc: true
 permalink: yamagataringo-taberungo
 date: 2020-04-08 23:45:00
@@ -20,7 +20,9 @@ categories:
 
 <!-- more -->
 
----
+
+
+<span style="font-size:0.8em;">※公開当初タイトルに休校日記の日数とか入れるの忘れたので追加しました…(2020-04-09 00:38頃 追記)</span>
 
 # 空前のたべるんごブーム
 
