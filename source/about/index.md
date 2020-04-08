@@ -51,7 +51,9 @@ toc: true
 当サイトを利用する場合は、自己責任で行う必要があります。
 
 ## 当サイトで掲載している画像の著作権や肖像権等について
-当サイトで掲載している画像の著作権や肖像権等は、各権利所有者に帰属します。万が一問題がある場合は、お問い合わせよりご連絡いただきますよう宜しくお願い致します。
+当サイトで掲載している画像の著作権や肖像権等は、各権利所有者に帰属します。万が一問題がある場合は、お手数ですが、TwitterのDM またはこのページ下部のお問い合わせなどよりご連絡いただきますよう宜しくお願い致します。
+
+<a href="https://twitter.com/messages/compose?recipient_id=875390218018226177&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="@yukiyalien" data-show-count="false">Message @@yukiyalien</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
