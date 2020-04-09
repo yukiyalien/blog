@@ -65,4 +65,4 @@ TwitterやMastodonで友人からあるデザイナーの方までいろいろ�
 
 あと昨日書いた記事↓も結構しっかりちゃんとしたこと書いてます。ニコニコに対する意見を述べたのでぜひ観てくれると嬉しいです。
 
-{% hatenablogcard http://localhost:4000/2020/04/08/yamagataringo-taberungo/ %}
+{% hatenablogcard https://blog.yukiya.me/2020/04/08/yamagataringo-taberungo/ %}
