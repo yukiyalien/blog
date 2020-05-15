@@ -108,7 +108,7 @@ Mastodonは「ActivityPub」というプロトコルで互いに通信してい�
 
 Twitterのような短文投稿に限らず、YouTubeのような動画投稿をFediverse上でできるようにする[PeerTube](https://joinpeertube.org/)、インスタ的写真投稿の[PixelFed](https://pixelfed.org/)、音楽シェア・ストリーミングの[Funkwhale](https://funkwhale.audio/)など様々な種類のソフトウェア/サービスがあります。
 
-**Mastodonに限らず、ActivityPubやそれ以外の何かしらのプロトコルで互いに通信できる分散型SNSの繋がりやソーシャルネットワーク世界のことを、「Fediverse」といいます。**
+**Mastodonに限らず、ActivityPubやそれ以外の何かしらのプロトコルで互いに通信できる分散型SNSの繋がりやソーシャルネットワークの宇宙のことを、「Fediverse」といいます。**
 
 Fediverse対応のソフトウェアを紹介されているサイトがあったので載せておきます。
 
