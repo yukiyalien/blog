@@ -4,7 +4,7 @@
 title: Twitterに疲れたあなたへ！マストドンのススメ2020 ～自由な世界に参加しよう～
 toc: true
 permalink: joinmastodon2020
-date: 2020-05-15 20:00:24
+date: 2020-05-16 03:50:00
 tags:
 - Fediverse
 - Mastodon
