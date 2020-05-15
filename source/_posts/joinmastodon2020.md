@@ -110,6 +110,10 @@ Twitterのような短文投稿に限らず、YouTubeのような動画投稿を
 
 **Mastodonに限らず、ActivityPubやそれ以外の何かしらのプロトコルで互いに通信できる分散型SNSの繋がりやソーシャルネットワーク世界のことを、「Fediverse」といいます。**
 
+Fediverse対応のソフトウェアを紹介されているサイトがあったので載せておきます。
+
+{% hatenablogcard https://fediverse.party/ %}
+
 この記事はMastodonを推す記事ですが、Mastodonだけではなく無限に広がるFediverseの世界は本当に面白いので、どっぷり沼に浸かってみてください。(Tipsおわり)
 
 ---
