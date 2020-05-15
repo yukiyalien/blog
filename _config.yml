@@ -95,6 +95,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-icarus
 
+markdown:
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
