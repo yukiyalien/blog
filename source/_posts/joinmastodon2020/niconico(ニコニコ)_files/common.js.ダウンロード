@@ -1,0 +1,108 @@
+(function () {
+
+// concatenate two functions.
+    function chain(head, tail) {
+        return head ? function () {
+            head && head.apply(this, arguments);
+            tail && tail.apply(this, arguments);
+        } : tail;
+    }
+
+
+    var NicoAPI = window.NicoAPI = {
+        "post": function (api, params, dataType) {
+            return NicoAPI.call(api, params, dataType, "POST");
+        },
+        "get": function (api, params, dataType) {
+            return NicoAPI.call(api, params, dataType, "GET");
+        },
+        "call": function (url, params, dataType, method) {
+            params = params || {};
+            dataType = dataType || "text";
+            var responder = new NicoAPI.Responder;
+
+            if (url.indexOf("/") == 0) {
+                url = url.substring(1);
+            }
+
+            responder.xhr = jQuery.ajax({
+                "type": method,
+                "url": Nico_getBaseUrl() + url,
+                "data": params,
+                "dataType": dataType,
+                "success": function (data) {
+                    responder.onSuccess(data);
+                },
+                "error": function (data) {
+                    responder.onError(data);
+                }
+            });
+            return responder;
+        }
+    };
+
+    NicoAPI.Responder = function () {
+    };
+    NicoAPI.Responder.prototype = {
+        "success": function (cb) {
+            this.onSuccess = chain(this.onSuccess, cb);
+            return this;
+        },
+        "error": function (cb) {
+            this.onError = chain(this.onError, cb);
+            return this;
+        },
+        "onSuccess": null,
+        "onError": null
+    }
+
+})();
+
+(function () {
+    NicoAPI.counter = function (path, parameter, callback) {
+        NicoAPI.get(
+            "api/counter/" + path,
+            parameter || {}
+        ).success(function (result) {
+            callback && callback(path, result);
+        }).error(function (result) {
+            callback && callback(path, result)
+        });
+    }
+})();
+
+var Nico_getBaseUrl = function() {
+	var base_url_dom, base_url = '/';
+	base_url_dom = document.getElementById('jsBaseUrl');
+	if (base_url_dom) {
+		base_url = base_url_dom.value;
+	}
+
+	return base_url;
+};
+
+// カウンターAPI専用メソッド
+var Nico_CounterEvent = (function() {
+	var callBack = function(event) {
+		if (event.currentTarget.target === '_blank') {
+			window.open(event.currentTarget.href);
+		} else {
+			location.href = event.currentTarget.href;
+		}
+	};
+	return {
+		"initialize": function(selector) {
+			$((selector ? selector + " " : "") + ".jsLinkCounterButton").on('click', function(event) {
+				event.preventDefault();
+				var counter_api_url = jQuery(event.currentTarget).data('counter_url');
+				NicoAPI.counter(counter_api_url, {}, function() {
+						callBack(event);
+					}
+				);
+			});
+		}
+	}
+})();
+$(function() {
+	Nico_CounterEvent.initialize();
+});

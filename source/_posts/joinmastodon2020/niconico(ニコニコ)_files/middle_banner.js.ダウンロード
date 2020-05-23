@@ -1,0 +1,57 @@
+var Nico_MiddleBanner = (function() {
+	var MiddleBannerView = {
+		'getMiddleBannerZoneId': function() {
+			return parseInt(jQuery('#jsMiddleBannerZoneId').val(), 10);
+		}
+	};
+	
+	var MiddleBannerController = (function() {
+		var is_initialized = false,
+			middle_banner_zone_id = 0,
+			preinit_request_queue = [],
+			MIN_WIDTH = 300,
+			MIN_HEIGHT = 250,
+			MAX_WIDTH = 390,
+			MAX_HEIGHT = 325,
+			SIZE_RATE_TO_WINDOW = 0.9375; // ウィンドウ幅の93.75%まで
+
+		return {
+			'initialize': function() {
+				var i = 0, l = preinit_request_queue.length;
+				middle_banner_zone_id = MiddleBannerView.getMiddleBannerZoneId();
+				is_initialized = true;
+				for (; i < l; i++) {
+					MiddleBannerController.loadMiddleBanner.apply(null, preinit_request_queue[i]);
+				}
+				preinit_request_queue.length = 0;
+			},
+			'loadMiddleBanner': function(element_id, options) {
+				if (!options) {
+					options = {};
+				}
+				if (!is_initialized) {
+					// initialize実行前に呼ばれたらキューにためる
+					var args = arguments.length === 1 ? [arguments[0]] : Array.apply(null, arguments);
+					preinit_request_queue.push(args);
+					return;
+				}
+				if (middle_banner_zone_id) {
+					if (typeof Ads === 'object' && typeof Ads.Advertisement === 'function') {
+						new Ads.Advertisement(Object.assign({}, options, {
+							zone: middle_banner_zone_id,
+							size: typeof Nico === 'object' && typeof Nico.SpwebAdsUtil === 'object' ? Nico.SpwebAdsUtil.generateAdSizeParameter(MIN_WIDTH, MIN_HEIGHT, MAX_WIDTH, MAX_HEIGHT, SIZE_RATE_TO_WINDOW) : null,
+							width: MIN_WIDTH,
+							height: MIN_HEIGHT
+						})).set(element_id);
+					}
+				}
+			}
+		};
+	})();
+	
+	return MiddleBannerController;
+})();
+
+jQuery(function () {
+	Nico_MiddleBanner.initialize();
+});
