@@ -8,9 +8,19 @@ toc: true
 
 ---
 
+## 私について
+
+日本に住むオタクです。ニコニコ、VTuber、Mastodon、Fediverse、アニメ、百合、性癖の話などをします。
+
+詳しいプロフィールや各種アカウントへのリンクなどは、私のウェブサイトをご参照ください :bow:
+
+{% hatenablogcard https://yukiya.me/ %}
+
+---
+
 ## リポジトリ
 
-このブログの内容はGitHub上で公開されております。語字修正などがございましたら、以下のリポジトリまでお願いします。
+このブログの内容はGitHub上で公開されております。語字や内容の修正提案などがございましたら、以下のリポジトリにIssueやPull Requestを送っていただけると助かります。
 
 - 私のブログのリポジトリ [<i class="fab fa-github" style="font-size:1em;"></i> yukiyalien/blog](https://github.com/yukiyalien/blog)
 
@@ -61,7 +71,10 @@ toc: true
 
 当サイトは技術面や様々な面において、以下の方(々)をはじめとするたくさんの皆様からのご支援・ご協力を頂いております。心より感謝を申し上げます。
 
-- nzws / ねじわさ さん (:earth_americas:https://nzws.me / :mastodon:[@nzws](https://don.nzws.me/@nzws) / :twitter:[@nzws_me](https://twitter.com/nzws_me))
+- nzws / ねじわさ さん
+  - [<i class="fas fa-globe-americas"></i> nzws.me](https://nzws.me/)
+  - [<i class="fab fa-twitter"></i> @nzws_me](https://twitter.com/nzws_me)
+  - [<i class="fab fa-mastodon"></i> @nzws@don.nzws.me](https://don.nzws.me/@nzws)
 
 ---
 
@@ -74,4 +87,6 @@ document.write('運営者：ももつきゆきや<br>連絡先：<a href=\"mai'+
 document.write('&#64;'+domain+'\">');
 document.write(name+'&#64'+domain+'</a>');
 </script>
+
+
 ---
