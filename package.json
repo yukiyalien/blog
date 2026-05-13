@@ -9,24 +9,32 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "hexo": "^4.0.0",
+    "cheerio": "^1.2.0",
+    "hexo": "^7.3.0",
     "hexo-embed-hatena-blog-card": "github:shundroid/hexo-embed-hatena-blog-card",
-    "hexo-filter-github-emojis": "git+https://github.com/nzws/hexo-filter-github-emojis.git",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-feed": "^2.2.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-markdown-it": "^4.1.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0",
-    "hexo-tag-twitter": "^1.0.1",
-    "hexo-toc": "git+https://github.com/yukiyalien/hexo-toc.git",
-    "twemoji": "^12.1.5"
+    "hexo-filter-github-emojis": "^3.0.4",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-log": "^3.2.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-markdown-it": "^6.1.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-tag-twitter": "^1.0.3",
+    "markdown-toc": "^1.2.0",
+    "object-assign": "^4.1.1",
+    "transliteration": "^2.6.1",
+    "twemoji": "^14.0.2",
+    "uslug": "^1.0.4"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "qs": "^6.14.1"
   }
 }
